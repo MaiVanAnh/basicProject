@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2B730C20ABCD51000D05BF /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B730B20ABCD51000D05BF /* PersistenceService.swift */; };
+		FF3CC9FF20AB460B00A3F64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CC9FE20AB460B00A3F64A /* AppDelegate.swift */; };
+		FF3CCA0120AB460B00A3F64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CCA0020AB460B00A3F64A /* ViewController.swift */; };
+		FF3CCA0420AB460B00A3F64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3CCA0220AB460B00A3F64A /* Main.storyboard */; };
+		FF3CCA0720AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF3CCA0520AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodeld */; };
+		FF3CCA0920AB460B00A3F64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3CCA0820AB460B00A3F64A /* Assets.xcassets */; };
+		FF3CCA0C20AB460B00A3F64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3CCA0A20AB460B00A3F64A /* LaunchScreen.storyboard */; };
+		FF3CCA2220AB4D0F00A3F64A /* ItemMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CCA2020AB4D0F00A3F64A /* ItemMO+CoreDataClass.swift */; };
+		FF3CCA2320AB4D0F00A3F64A /* ItemMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CCA2120AB4D0F00A3F64A /* ItemMO+CoreDataProperties.swift */; };
+		FF3CCA2520AB595500A3F64A /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CCA2420AB595500A3F64A /* MyCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF2B730B20ABCD51000D05BF /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		FF3CC9FB20AB460B00A3F64A /* PasswordKeeper1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordKeeper1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3CC9FE20AB460B00A3F64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF3CCA0020AB460B00A3F64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF3CCA0320AB460B00A3F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3CCA0620AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordKeeper1_1.xcdatamodel; sourceTree = "<group>"; };
+		FF3CCA0820AB460B00A3F64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3CCA0B20AB460B00A3F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3CCA0D20AB460B00A3F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3CCA2020AB4D0F00A3F64A /* ItemMO+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FF3CCA2120AB4D0F00A3F64A /* ItemMO+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ItemMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FF3CCA2420AB595500A3F64A /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3CC9F820AB460B00A3F64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3CC9F220AB460B00A3F64A = {
+			isa = PBXGroup;
+			children = (
+				FF3CCA1B20AB471300A3F64A /* CoreData */,
+				FF3CC9FD20AB460B00A3F64A /* PasswordKeeper1.1 */,
+				FF3CC9FC20AB460B00A3F64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3CC9FC20AB460B00A3F64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3CC9FB20AB460B00A3F64A /* PasswordKeeper1.1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3CC9FD20AB460B00A3F64A /* PasswordKeeper1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FF3CC9FE20AB460B00A3F64A /* AppDelegate.swift */,
+				FF3CCA0020AB460B00A3F64A /* ViewController.swift */,
+				FF3CCA0220AB460B00A3F64A /* Main.storyboard */,
+				FF3CCA0820AB460B00A3F64A /* Assets.xcassets */,
+				FF3CCA0A20AB460B00A3F64A /* LaunchScreen.storyboard */,
+				FF3CCA0D20AB460B00A3F64A /* Info.plist */,
+				FF3CCA0520AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodeld */,
+				FF3CCA2420AB595500A3F64A /* MyCell.swift */,
+				FF2B730B20ABCD51000D05BF /* PersistenceService.swift */,
+			);
+			path = PasswordKeeper1.1;
+			sourceTree = "<group>";
+		};
+		FF3CCA1B20AB471300A3F64A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FF3CCA2120AB4D0F00A3F64A /* ItemMO+CoreDataProperties.swift */,
+				FF3CCA2020AB4D0F00A3F64A /* ItemMO+CoreDataClass.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3CC9FA20AB460B00A3F64A /* PasswordKeeper1.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3CCA1020AB460B00A3F64A /* Build configuration list for PBXNativeTarget "PasswordKeeper1.1" */;
+			buildPhases = (
+				FF3CC9F720AB460B00A3F64A /* Sources */,
+				FF3CC9F820AB460B00A3F64A /* Frameworks */,
+				FF3CC9F920AB460B00A3F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordKeeper1.1;
+			productName = PasswordKeeper1.1;
+			productReference = FF3CC9FB20AB460B00A3F64A /* PasswordKeeper1.1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3CC9F320AB460B00A3F64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Van Anh";
+				TargetAttributes = {
+					FF3CC9FA20AB460B00A3F64A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF3CC9F620AB460B00A3F64A /* Build configuration list for PBXProject "PasswordKeeper1.1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3CC9F220AB460B00A3F64A;
+			productRefGroup = FF3CC9FC20AB460B00A3F64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3CC9FA20AB460B00A3F64A /* PasswordKeeper1.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3CC9F920AB460B00A3F64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3CCA0C20AB460B00A3F64A /* LaunchScreen.storyboard in Resources */,
+				FF3CCA0920AB460B00A3F64A /* Assets.xcassets in Resources */,
+				FF3CCA0420AB460B00A3F64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3CC9F720AB460B00A3F64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2B730C20ABCD51000D05BF /* PersistenceService.swift in Sources */,
+				FF3CCA2220AB4D0F00A3F64A /* ItemMO+CoreDataClass.swift in Sources */,
+				FF3CCA0120AB460B00A3F64A /* ViewController.swift in Sources */,
+				FF3CC9FF20AB460B00A3F64A /* AppDelegate.swift in Sources */,
+				FF3CCA2520AB595500A3F64A /* MyCell.swift in Sources */,
+				FF3CCA2320AB4D0F00A3F64A /* ItemMO+CoreDataProperties.swift in Sources */,
+				FF3CCA0720AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF3CCA0220AB460B00A3F64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3CCA0320AB460B00A3F64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3CCA0A20AB460B00A3F64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3CCA0B20AB460B00A3F64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3CCA0E20AB460B00A3F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF3CCA0F20AB460B00A3F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3CCA1120AB460B00A3F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordKeeper1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh.LearnIOS.PasswordKeeper1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF3CCA1220AB460B00A3F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PasswordKeeper1.1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anh.LearnIOS.PasswordKeeper1-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3CC9F620AB460B00A3F64A /* Build configuration list for PBXProject "PasswordKeeper1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3CCA0E20AB460B00A3F64A /* Debug */,
+				FF3CCA0F20AB460B00A3F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3CCA1020AB460B00A3F64A /* Build configuration list for PBXNativeTarget "PasswordKeeper1.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3CCA1120AB460B00A3F64A /* Debug */,
+				FF3CCA1220AB460B00A3F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF3CCA0520AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF3CCA0620AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodel */,
+			);
+			currentVersion = FF3CCA0620AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodel */;
+			path = PasswordKeeper1_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF3CC9F320AB460B00A3F64A /* Project object */;
+}
