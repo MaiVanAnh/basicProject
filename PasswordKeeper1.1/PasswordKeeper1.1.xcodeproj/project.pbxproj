@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF2B730C20ABCD51000D05BF /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B730B20ABCD51000D05BF /* PersistenceService.swift */; };
+		FF2A4B4D20AD734C0019685D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A4B4C20AD734C0019685D /* LoginViewController.swift */; };
+		FF2A4B4F20AD77330019685D /* PasscodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2A4B4E20AD77330019685D /* PasscodeView.xib */; };
+		FF2A4B5120AD775C0019685D /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A4B5020AD775C0019685D /* PasscodeView.swift */; };
 		FF3CC9FF20AB460B00A3F64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CC9FE20AB460B00A3F64A /* AppDelegate.swift */; };
 		FF3CCA0120AB460B00A3F64A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3CCA0020AB460B00A3F64A /* ViewController.swift */; };
 		FF3CCA0420AB460B00A3F64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3CCA0220AB460B00A3F64A /* Main.storyboard */; };
@@ -20,7 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FF2B730B20ABCD51000D05BF /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		FF2A4B4C20AD734C0019685D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF2A4B4E20AD77330019685D /* PasscodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasscodeView.xib; sourceTree = "<group>"; };
+		FF2A4B5020AD775C0019685D /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		FF3CC9FB20AB460B00A3F64A /* PasswordKeeper1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordKeeper1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3CC9FE20AB460B00A3F64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF3CCA0020AB460B00A3F64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +77,8 @@
 				FF3CCA0D20AB460B00A3F64A /* Info.plist */,
 				FF3CCA0520AB460B00A3F64A /* PasswordKeeper1_1.xcdatamodeld */,
 				FF3CCA2420AB595500A3F64A /* MyCell.swift */,
-				FF2B730B20ABCD51000D05BF /* PersistenceService.swift */,
+				FF2A4B4C20AD734C0019685D /* LoginViewController.swift */,
+				FFDD957A20B56AEC00B5506E /* PasscodeVIew */,
 			);
 			path = PasswordKeeper1.1;
 			sourceTree = "<group>";
@@ -85,6 +90,15 @@
 				FF3CCA2020AB4D0F00A3F64A /* ItemMO+CoreDataClass.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FFDD957A20B56AEC00B5506E /* PasscodeVIew */ = {
+			isa = PBXGroup;
+			children = (
+				FF2A4B4E20AD77330019685D /* PasscodeView.xib */,
+				FF2A4B5020AD775C0019685D /* PasscodeView.swift */,
+			);
+			path = PasscodeVIew;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +162,7 @@
 			files = (
 				FF3CCA0C20AB460B00A3F64A /* LaunchScreen.storyboard in Resources */,
 				FF3CCA0920AB460B00A3F64A /* Assets.xcassets in Resources */,
+				FF2A4B4F20AD77330019685D /* PasscodeView.xib in Resources */,
 				FF3CCA0420AB460B00A3F64A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,8 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2B730C20ABCD51000D05BF /* PersistenceService.swift in Sources */,
+				FF2A4B4D20AD734C0019685D /* LoginViewController.swift in Sources */,
 				FF3CCA2220AB4D0F00A3F64A /* ItemMO+CoreDataClass.swift in Sources */,
+				FF2A4B5120AD775C0019685D /* PasscodeView.swift in Sources */,
 				FF3CCA0120AB460B00A3F64A /* ViewController.swift in Sources */,
 				FF3CC9FF20AB460B00A3F64A /* AppDelegate.swift in Sources */,
 				FF3CCA2520AB595500A3F64A /* MyCell.swift in Sources */,

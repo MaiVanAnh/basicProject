@@ -7,7 +7,7 @@
 //
 //
 
-import Foundation
+import UIKit
 import CoreData
 
 
@@ -31,7 +31,11 @@ extension ItemMO {
         item.nameapp = nameapp
         item.username = username
         item.password = password
-            
+        
+        let imageData: NSData = UIImagePNGRepresentation(#imageLiteral(resourceName: "icon"))! as NSData
+        
+        item.icon = imageData
+
         do {
             try AppDelegate.managedObjectContext?.save()
         } catch  {
@@ -47,15 +51,30 @@ extension ItemMO {
         var result = [ItemMO]();
         let moc = AppDelegate.managedObjectContext
         do {
-            result = try moc!.fetch(ItemMO.fetchRequest()) as [ItemMO]
+            result = try moc!.fetch(ItemMO.fetchRequest()) as! [ItemMO]
         } catch {
             print("Can not fetch items, error is: \(error)")
             return result
         }
         return result
+
+        
+    }
+    static func deleteItem(item : ItemMO) -> Bool{
+        let moc = AppDelegate.managedObjectContext
+        moc?.delete(item)
+        do {
+            try moc?.save()
+            print("your item choice deleted")
+            return true
+        } catch  {
+            print("error delete")
+            return false
+        }
+        
     }
     
-    static func deleteAllItem()->Bool{
+    static func deleteAllItem() -> Bool{
         let moc = AppDelegate.managedObjectContext
         let items = ItemMO.getAllItem()
         for item in items{
@@ -71,5 +90,10 @@ extension ItemMO {
         print("Delete successful")
         return true
     }
+    
+//    static func filterData() -> [ItemMO]? {
+//        let moc = AppDelegate.managedObjectContext
+//        
+//    }
 
 }

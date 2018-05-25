@@ -15,6 +15,9 @@ class MyCell: UITableViewCell {
     @IBOutlet var username: UILabel!
     
     @IBOutlet var password: UILabel!
+    
+    @IBOutlet var icon: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         nameapp.adjustsFontForContentSizeCategory = true
